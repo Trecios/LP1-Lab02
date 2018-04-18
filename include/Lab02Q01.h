@@ -19,6 +19,6 @@ void volumePiramide(int ab, int h);
 void volumeCubo(int a);
 void volumeParalelepipedo(int ar1, int ar2, int ar3);
 void volumeEsfera(int r);
-//void run();
+void run(int argc, const char *argv[]);
 
 #endif

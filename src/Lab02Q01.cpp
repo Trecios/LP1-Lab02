@@ -2,6 +2,7 @@
 #include <iostream>
 	using namespace std;
 #include <cmath>
+#include <cstring>
 
 void areaTriangulo(int b, int h)
 {
@@ -83,7 +84,7 @@ void volumeEsfera(int r)
 	cout << "Volume da esfera: " << (PI*pow(r, 3))*(4/3) << endl;
 }
 
-/*void run()
+void run(int argc, const char *argv[])
 {
 	switch(argc){
 		case 1:
@@ -99,20 +100,20 @@ void volumeEsfera(int r)
 			cout << "	./geometrica esfera raio" << endl;
 			cout << "Serão impressos os valores da área e do perímetro/volume." << endl;
 			break;
-		case 2:
-			if(argv[1] == "quadrado")
+		case 3:
+			if(strcmp(argv[1], "quadrado") == 0)
 			{
 				areaQuadrado(atoi(argv[2]));
 				perimetroQuadrado(atoi(argv[2]));
 				break;
 			}
-			else if(argv[1] == "circulo")
+			else if(strcmp(argv[1], "circulo") == 0)
 			{
 				areaCirculo(atoi(argv[2]));
 				perimetroCirculo(atoi(argv[2]));
 				break;
 			}
-			else if(argv[1] == "cubo")
+			else if(strcmp(argv[1], "cubo") == 0)
 			{
 				areaCubo(atoi(argv[2]));
 				volumeCubo(atoi(argv[2]));
@@ -125,12 +126,12 @@ void volumeEsfera(int r)
 				break;
 			}
 			break;
-		case 3:
+		case 4:
 			areaRetangulo(atoi(argv[2]), atoi(argv[3]));
 			perimetroRetangulo(atoi(argv[2]), atoi(argv[3]));
 			break;
-		case 4:
-			if(argv[1] == "piramide")
+		case 5:
+			if(strcmp(argv[1], "piramide") == 0)
 			{
 				areaPiramide(atoi(argv[2]), atoi(argv[3]));
 				volumePiramide(atoi(argv[2]), atoi(argv[4]));
@@ -147,4 +148,4 @@ void volumeEsfera(int r)
 			perimetroTriangulo(atoi(argv[4]), atoi(argv[5]), atoi(argv[6]));
 			break;
 	}
-}*/
+}
