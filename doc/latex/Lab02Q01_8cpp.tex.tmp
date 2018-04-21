@@ -1,0 +1,354 @@
+\hypertarget{Lab02Q01_8cpp}{}\section{Lab02\+Q01.\+cpp File Reference}
+\label{Lab02Q01_8cpp}\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+
+
+Programa em c++ que calcula a área e o perímetro/volume de algumas formas geométricas.  
+
+
+{\ttfamily \#include \char`\"{}Lab02\+Q01.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$cmath$>$}\\*
+{\ttfamily \#include $<$cstring$>$}\\*
+Include dependency graph for Lab02\+Q01.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{Lab02Q01_8cpp_a2538d0dbcffa34ef38e0c80804a21b4e}{area\+Triangulo} (int b, int h)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de um triangulo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_ab4bee0c0bc4b52a43c0c858cd1d205cd}{area\+Retangulo} (int b, int h)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de um retangulo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a5a02bd87dc19f53b69a378df17f5168b}{area\+Quadrado} (int l)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de um quadrado. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a2c00e0bbab9a18cbda2f11e65b560d13}{area\+Circulo} (int r)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de um circulo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a9150dc94081cb08da93acff4c39e6842}{area\+Piramide} (int ab, int al)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de uma piramide. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_ab633650b353b4e7275f83f28c19f9424}{area\+Cubo} (int a)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de um cubo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a31e347328d8cfe583f45ac670ede305c}{area\+Paralelepipedo} (int a1, int a2, int a3)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de um paralelepipedo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a06a02477755ce793a0993f86c7dc481e}{area\+Esfera} (int r)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula a area de uma esfera. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_ad1bc5625b6348ffdc75fe11dbf2aea4f}{perimetro\+Triangulo} (int l1, int l2, int l3)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o perimetro de um triangulo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_aff4a909827b357c488a30909b711039e}{perimetro\+Retangulo} (int b, int h)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o perimetro de um retangulo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a1542cceb5dba8e1e9903c3d1b5055097}{perimetro\+Quadrado} (int l)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o perimetro de um quadrado. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a25f32f5d2d7a75416be36d334b963860}{perimetro\+Circulo} (int r)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o perimetro de um circulo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_afe81fdd8e00d1f94848f9cc7164b797e}{volume\+Piramide} (int ab, int h)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o volume de uma piramide. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a9b1147b5dbdd6965229ed4240bf02375}{volume\+Cubo} (int a)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o volume de um cubo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a7b4f0cd7cdb06d31f2f9e44632ac4fbb}{volume\+Paralelepipedo} (int ar1, int ar2, int ar3)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o volume de um paralelepipedo. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_aae2c48e32daa9a4c154fd53611fb84d7}{volume\+Esfera} (int r)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o volume de uma esfera. \end{DoxyCompactList}\item 
+void \hyperlink{Lab02Q01_8cpp_a28545755bd166d742fd5684ede1b54b7}{run} (int argc, const char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funcao que roda a calculadora. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Programa em c++ que calcula a área e o perímetro/volume de algumas formas geométricas. 
+
+\begin{DoxyAuthor}{Author}
+Felipe Douglas 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+18/04/2018 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+21/04/2018 
+\end{DoxyDate}
+\begin{DoxySeeAlso}{See also}
+\href{http://www.google.com/}{\tt http\+://www.\+google.\+com/} 
+\end{DoxySeeAlso}
+
+
+\subsection{Function Documentation}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Circulo@{area\+Circulo}}
+\index{area\+Circulo@{area\+Circulo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Circulo(int r)}{areaCirculo(int r)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Circulo (
+\begin{DoxyParamCaption}
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a2c00e0bbab9a18cbda2f11e65b560d13}{}\label{Lab02Q01_8cpp_a2c00e0bbab9a18cbda2f11e65b560d13}
+
+
+Funcao que calcula a area de um circulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Raio \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Cubo@{area\+Cubo}}
+\index{area\+Cubo@{area\+Cubo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Cubo(int a)}{areaCubo(int a)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Cubo (
+\begin{DoxyParamCaption}
+\item[{int}]{a}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_ab633650b353b4e7275f83f28c19f9424}{}\label{Lab02Q01_8cpp_ab633650b353b4e7275f83f28c19f9424}
+
+
+Funcao que calcula a area de um cubo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Aresta \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Esfera@{area\+Esfera}}
+\index{area\+Esfera@{area\+Esfera}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Esfera(int r)}{areaEsfera(int r)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Esfera (
+\begin{DoxyParamCaption}
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a06a02477755ce793a0993f86c7dc481e}{}\label{Lab02Q01_8cpp_a06a02477755ce793a0993f86c7dc481e}
+
+
+Funcao que calcula a area de uma esfera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Raio \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Paralelepipedo@{area\+Paralelepipedo}}
+\index{area\+Paralelepipedo@{area\+Paralelepipedo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Paralelepipedo(int a1, int a2, int a3)}{areaParalelepipedo(int a1, int a2, int a3)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Paralelepipedo (
+\begin{DoxyParamCaption}
+\item[{int}]{a1, }
+\item[{int}]{a2, }
+\item[{int}]{a3}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a31e347328d8cfe583f45ac670ede305c}{}\label{Lab02Q01_8cpp_a31e347328d8cfe583f45ac670ede305c}
+
+
+Funcao que calcula a area de um paralelepipedo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a1} & Aresta 1, a2 Aresta 2 e a3 Aresta 3 \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Piramide@{area\+Piramide}}
+\index{area\+Piramide@{area\+Piramide}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Piramide(int ab, int al)}{areaPiramide(int ab, int al)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Piramide (
+\begin{DoxyParamCaption}
+\item[{int}]{ab, }
+\item[{int}]{al}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a9150dc94081cb08da93acff4c39e6842}{}\label{Lab02Q01_8cpp_a9150dc94081cb08da93acff4c39e6842}
+
+
+Funcao que calcula a area de uma piramide. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ab} & Area da base e al Area lateral \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Quadrado@{area\+Quadrado}}
+\index{area\+Quadrado@{area\+Quadrado}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Quadrado(int l)}{areaQuadrado(int l)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Quadrado (
+\begin{DoxyParamCaption}
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a5a02bd87dc19f53b69a378df17f5168b}{}\label{Lab02Q01_8cpp_a5a02bd87dc19f53b69a378df17f5168b}
+
+
+Funcao que calcula a area de um quadrado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & Lado \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Retangulo@{area\+Retangulo}}
+\index{area\+Retangulo@{area\+Retangulo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Retangulo(int b, int h)}{areaRetangulo(int b, int h)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Retangulo (
+\begin{DoxyParamCaption}
+\item[{int}]{b, }
+\item[{int}]{h}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_ab4bee0c0bc4b52a43c0c858cd1d205cd}{}\label{Lab02Q01_8cpp_ab4bee0c0bc4b52a43c0c858cd1d205cd}
+
+
+Funcao que calcula a area de um retangulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Base e h Altura \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!area\+Triangulo@{area\+Triangulo}}
+\index{area\+Triangulo@{area\+Triangulo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{area\+Triangulo(int b, int h)}{areaTriangulo(int b, int h)}}]{\setlength{\rightskip}{0pt plus 5cm}void area\+Triangulo (
+\begin{DoxyParamCaption}
+\item[{int}]{b, }
+\item[{int}]{h}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a2538d0dbcffa34ef38e0c80804a21b4e}{}\label{Lab02Q01_8cpp_a2538d0dbcffa34ef38e0c80804a21b4e}
+
+
+Funcao que calcula a area de um triangulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Base e h Altura \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!perimetro\+Circulo@{perimetro\+Circulo}}
+\index{perimetro\+Circulo@{perimetro\+Circulo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{perimetro\+Circulo(int r)}{perimetroCirculo(int r)}}]{\setlength{\rightskip}{0pt plus 5cm}void perimetro\+Circulo (
+\begin{DoxyParamCaption}
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a25f32f5d2d7a75416be36d334b963860}{}\label{Lab02Q01_8cpp_a25f32f5d2d7a75416be36d334b963860}
+
+
+Funcao que calcula o perimetro de um circulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Raio \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!perimetro\+Quadrado@{perimetro\+Quadrado}}
+\index{perimetro\+Quadrado@{perimetro\+Quadrado}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{perimetro\+Quadrado(int l)}{perimetroQuadrado(int l)}}]{\setlength{\rightskip}{0pt plus 5cm}void perimetro\+Quadrado (
+\begin{DoxyParamCaption}
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a1542cceb5dba8e1e9903c3d1b5055097}{}\label{Lab02Q01_8cpp_a1542cceb5dba8e1e9903c3d1b5055097}
+
+
+Funcao que calcula o perimetro de um quadrado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & Lado \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!perimetro\+Retangulo@{perimetro\+Retangulo}}
+\index{perimetro\+Retangulo@{perimetro\+Retangulo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{perimetro\+Retangulo(int b, int h)}{perimetroRetangulo(int b, int h)}}]{\setlength{\rightskip}{0pt plus 5cm}void perimetro\+Retangulo (
+\begin{DoxyParamCaption}
+\item[{int}]{b, }
+\item[{int}]{h}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_aff4a909827b357c488a30909b711039e}{}\label{Lab02Q01_8cpp_aff4a909827b357c488a30909b711039e}
+
+
+Funcao que calcula o perimetro de um retangulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Base e h Altura \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!perimetro\+Triangulo@{perimetro\+Triangulo}}
+\index{perimetro\+Triangulo@{perimetro\+Triangulo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{perimetro\+Triangulo(int l1, int l2, int l3)}{perimetroTriangulo(int l1, int l2, int l3)}}]{\setlength{\rightskip}{0pt plus 5cm}void perimetro\+Triangulo (
+\begin{DoxyParamCaption}
+\item[{int}]{l1, }
+\item[{int}]{l2, }
+\item[{int}]{l3}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_ad1bc5625b6348ffdc75fe11dbf2aea4f}{}\label{Lab02Q01_8cpp_ad1bc5625b6348ffdc75fe11dbf2aea4f}
+
+
+Funcao que calcula o perimetro de um triangulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l1} & Lado 1, l2 Lado 2 e l3 Lado 3 \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!run@{run}}
+\index{run@{run}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{run(int argc, const char $\ast$argv[])}{run(int argc, const char *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}void run (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{const char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a28545755bd166d742fd5684ede1b54b7}{}\label{Lab02Q01_8cpp_a28545755bd166d742fd5684ede1b54b7}
+
+
+Funcao que roda a calculadora. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Quantidade de parametros e argv\mbox{[}\mbox{]} Parametros \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!volume\+Cubo@{volume\+Cubo}}
+\index{volume\+Cubo@{volume\+Cubo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{volume\+Cubo(int a)}{volumeCubo(int a)}}]{\setlength{\rightskip}{0pt plus 5cm}void volume\+Cubo (
+\begin{DoxyParamCaption}
+\item[{int}]{a}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a9b1147b5dbdd6965229ed4240bf02375}{}\label{Lab02Q01_8cpp_a9b1147b5dbdd6965229ed4240bf02375}
+
+
+Funcao que calcula o volume de um cubo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Aresta \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!volume\+Esfera@{volume\+Esfera}}
+\index{volume\+Esfera@{volume\+Esfera}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{volume\+Esfera(int r)}{volumeEsfera(int r)}}]{\setlength{\rightskip}{0pt plus 5cm}void volume\+Esfera (
+\begin{DoxyParamCaption}
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_aae2c48e32daa9a4c154fd53611fb84d7}{}\label{Lab02Q01_8cpp_aae2c48e32daa9a4c154fd53611fb84d7}
+
+
+Funcao que calcula o volume de uma esfera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Raio \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!volume\+Paralelepipedo@{volume\+Paralelepipedo}}
+\index{volume\+Paralelepipedo@{volume\+Paralelepipedo}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{volume\+Paralelepipedo(int ar1, int ar2, int ar3)}{volumeParalelepipedo(int ar1, int ar2, int ar3)}}]{\setlength{\rightskip}{0pt plus 5cm}void volume\+Paralelepipedo (
+\begin{DoxyParamCaption}
+\item[{int}]{ar1, }
+\item[{int}]{ar2, }
+\item[{int}]{ar3}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_a7b4f0cd7cdb06d31f2f9e44632ac4fbb}{}\label{Lab02Q01_8cpp_a7b4f0cd7cdb06d31f2f9e44632ac4fbb}
+
+
+Funcao que calcula o volume de um paralelepipedo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ar1} & Aresta 1, ar2 Aresta 2 e ar3 Aresta 3 \\
+\hline
+\end{DoxyParams}
+\index{Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}!volume\+Piramide@{volume\+Piramide}}
+\index{volume\+Piramide@{volume\+Piramide}!Lab02\+Q01.\+cpp@{Lab02\+Q01.\+cpp}}
+\subsubsection[{\texorpdfstring{volume\+Piramide(int ab, int h)}{volumePiramide(int ab, int h)}}]{\setlength{\rightskip}{0pt plus 5cm}void volume\+Piramide (
+\begin{DoxyParamCaption}
+\item[{int}]{ab, }
+\item[{int}]{h}
+\end{DoxyParamCaption}
+)}\hypertarget{Lab02Q01_8cpp_afe81fdd8e00d1f94848f9cc7164b797e}{}\label{Lab02Q01_8cpp_afe81fdd8e00d1f94848f9cc7164b797e}
+
+
+Funcao que calcula o volume de uma piramide. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ab} & Area da base e h Altura \\
+\hline
+\end{DoxyParams}
